@@ -80,53 +80,13 @@ $extraMenu = $view['menu']->render('extra');
 
 
             </g>
-            <g transform="matrix(1.6841691175880094 0 0 1.6841691175880094 44.22646451430367 -74.99741156760744)">
-                <g transform="matrix(1.184963476 0 0 1.184963476 -8.82629369996566 -11.805877863989664)">
+            <g transform="matrix(1.8802868587964776 0 0 1.8802868587964778 -27.718454758305157 -88.01652586906084)">
+                <g transform="matrix(1.184963476 0 0 1.184963476 -12.56364114386541 -11.855188710117034)">
                     <g>
                         <g is="lm-picture">
 
-                            <g transform="matrix(0.30869902924196224 0 0 0.30869913671395854 -8.64362175808327 48.175492032316534)">
-                                <g transform="matrix(1 0 0 1 0 0)">
-                                    <defs>
-                                        <linearGradient x1="0" y1="0" x2="0" y2="1" id="gradient126" gradientTransform="rotate(-127 .5 .5)">
-                                            <stop offset="0" stop-color="#E94B00" stop-opacity="1"/><stop offset="1" stop-color="#FFB815" stop-opacity="1"/>
-                                        </linearGradient>
+                            <g transform="matrix(0.30869902924196224 0 0 0.3086991367139586 28.400261750952193 54.34947476659571)">
 
-                                    </defs>
-                                    <path fill="url(#gradient126)" d="M48.35 10.7Q50 5.25 47.85 2.6 45.8 0 40.8 0.95 37.4 1.6 33.9 4.35 29.9 7.45 27.15 12.3 20.05 24.65 23.25 43.15 34 33.25 40.6 24.5 46.5 16.65 48.35 10.7Z"/>
-                                </g><g transform="matrix(1 0 0 1 0 0)">
-                                    <defs>
-                                        <linearGradient x1="0" y1="0" x2="0" y2="1" id="gradient127" gradientTransform="rotate(-127 .5 .5)">
-                                            <stop offset="0" stop-color="#FFB42A" stop-opacity="1"/><stop offset="1" stop-color="#FF9A15" stop-opacity="1"/>
-                                        </linearGradient>
-
-                                    </defs>
-                                    <path fill="url(#gradient127)" d="M25.95 43.15Q25.3 25.7 27.5 17.05 30.65 4.45 40.8 0.95 19.3 6.8 8.75 22.3 0 35.2 0.1 52.25 0.15 59.45 1.8 66.3 3.45 72.7 6.15 77.55 8.9 82.3 12.05 84.3 15.35 86.4 18.35 84.95 25.1 81.75 26.25 69.15 26.7 64.3 26.5 56.8 26.15 47.75 25.95 43.15Z"/>
-                                </g><g transform="matrix(1 0 0 1 0 0)">
-                                    <defs>
-                                        <linearGradient x1="0" y1="0" x2="0" y2="1" id="gradient128" gradientTransform="rotate(-217 .5 .5)">
-                                            <stop offset="0" stop-color="#FFB62A" stop-opacity="1"/><stop offset="1" stop-color="#FFE200" stop-opacity="1"/>
-                                        </linearGradient>
-
-                                    </defs>
-                                    <path fill="url(#gradient128)" d="M25.9 41.2L25.9 40.7Q15.1 50.85 10.75 64.4 8.85 70.35 8.9 75.3 8.95 80.35 11.05 83.15 11.75 84.15 12.8 84.75 13.85 85.4 15 85.55 16.7 85.8 18.25 85.05 25.1 81.75 26.25 68.4 26.7 63.35 26.5 55.35 26.1 45.95 25.9 41.2Z"/>
-                                </g><g transform="matrix(1 0 0 1 0 0)">
-                                    <defs>
-                                        <linearGradient x1="0" y1="0" x2="0" y2="1" id="gradient129" gradientTransform="rotate(-127 .5 .5)">
-                                            <stop offset="0" stop-color="#FF372A" stop-opacity="1"/><stop offset="1" stop-color="#550E00" stop-opacity="1"/>
-                                        </linearGradient>
-
-                                    </defs>
-                                    <path fill="url(#gradient129)" d="M32.8 92.75Q30.65 97.45 36 98.95 42.15 100.7 48.6 92.8 54.85 85.2 57.1 74.2 58.95 65.25 56.25 56.35 55.4 53.55 54.2 51.1L53.2 49.25Q55.3 57.55 50.95 66.85 48.05 72.95 40.95 81.7 36.45 87.25 36.05 87.8 33.7 90.85 32.8 92.75Z"/>
-                                </g><g transform="matrix(1 0 0 1 0 0)">
-                                    <defs>
-                                        <linearGradient x1="0" y1="0" x2="0" y2="1" id="gradient130" gradientTransform="rotate(-127 .5 .5)">
-                                            <stop offset="0" stop-color="#FF372A" stop-opacity="1"/><stop offset="1" stop-color="#FFB60B" stop-opacity="1"/>
-                                        </linearGradient>
-
-                                    </defs>
-                                    <path fill="url(#gradient130)" d="M97.4 39.25Q95.1 29.55 89.15 21.55 85 15.85 79.45 11.6 74 7.4 67.1 8.1 60.2 8.85 55.75 14.15 51.1 19.75 49.55 27.15 47.6 36.3 50.55 47.75 56 69 46.55 86.1 43.6 91.45 39.5 95.75 37.45 97.85 36 98.95 47 101.95 58.15 99.85 69.7 97.75 79.15 90.6 87.1 84.6 92.05 76 96.85 67.7 98.25 58.15 99.65 48.6 97.4 39.25Z"/>
-                                </g>
                             </g>
                         </g><g is="lm-text" transform="matrix(0.814479519981136 0 0 0.8144796010320767 9.566726930957428 56.44220317411699)">
 
