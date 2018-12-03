@@ -17,7 +17,7 @@ class Bannernow extends Client
         $keys = $integration->getKeys();
 
         parent::__construct([
-            'base_uri' => getenv('BANNERNOW_HOST') ?? 'https://bannernow.com',
+            'base_uri' => getenv('BANNERNOW_HOST') ?: 'https://development.bannernow.com',
             'allow_redirects' => false,
             'headers' => empty($keys['access_token']) ? [] : [
                 'Authorization' => 'Bearer ' . $keys['access_token']
