@@ -3,31 +3,28 @@
 namespace MauticPlugin\MauticBannernowBundle\Controller;
 
 use Mautic\CoreBundle\Controller\CommonController;
-use Mautic\PluginBundle\Helper\IntegrationHelper;
-use MauticPlugin\MauticBannernowBundle\Integration\BannernowIntegration;
-use MauticPlugin\MauticBannernowBundle\Services\Bannernow;
+use MauticPlugin\MauticBannernowBundle\Helpers\Bannernow;
+use Throwable;
 
 class DefaultController extends CommonController
 {
     public function iframeAction()
     {
         /**
-         * @var IntegrationHelper $integration_helper
-         * @var BannernowIntegration $integration
+         * @var Bannernow $bannernow
          */
-        $integration_helper = $this->container->get('mautic.helper.integration');
-        $integration = $integration_helper->getIntegrationObject('Bannernow');
-        $bannernow = new Bannernow($integration);
+
+        $bannernow = $this->container->get('mautic.helper.bannernow');
 
         try {
             return $this->delegateView([
                 'contentTemplate' => 'MauticBannernowBundle:Default:iframe.html.php',
                 'viewParameters' => [
-                    'url' => $bannernow->iframes_create(),
+                    'url' => $bannernow->agents_login_create(),
                 ],
             ]);
         }
-        catch (\Throwable $exception) {
+        catch (Throwable $exception) {
             return $this->delegateView([
                 'contentTemplate' => 'MauticBannernowBundle:Default:iframe_failed.html.php',
                 'viewParameters' => [

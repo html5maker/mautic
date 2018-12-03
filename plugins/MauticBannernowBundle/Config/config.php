@@ -1,5 +1,7 @@
 <?php
 
+use MauticPlugin\MauticBannernowBundle\Helpers\Bannernow;
+
 return [
     'name' => 'Bannernow',
     'description' => 'Integration with Bannernow',
@@ -37,6 +39,16 @@ return [
                 'path' => '/bannernow/api/hello',
                 'controller' => 'MauticBannernowBundle:Api:hello',
                 'method' => 'GET'
+            ],
+        ],
+    ],
+    'services' => [
+        'helpers' => [
+            'mautic.helper.bannernow' => [
+                'class' => Bannernow::class,
+                'arguments' => [
+                    'service_container',
+                ]
             ]
         ],
     ],
@@ -44,9 +56,9 @@ return [
         'main' => [
             'mautic.bannernow.iframe' => [
                 'iconClass' => 'fa-globe',
-                'route'    => 'mautic_bannernow_iframe',
+                'route' => 'mautic_bannernow_iframe',
                 'priority' => 1000,
-                'checks'   => [
+                'checks' => [
                     'integration' => [
                         'Bannernow' => [
                             'enabled' => true,
